@@ -7,7 +7,7 @@ from django.utils import timezone
 
 NUM_BOOKS = 500
 NUM_BUYERS = 5_000
-NUM_PURCHASES = 10_000
+NUM_PURCHASES = 1_000
 
 DATE_BETWEEN = (timezone.now() - timezone.timedelta(days=365), timezone.now())
 
