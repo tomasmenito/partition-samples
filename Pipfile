@@ -8,6 +8,7 @@ dj-database-url = "*"
 django = "*"
 prettyconf = "*"
 psycopg2 = "*"
+architect = "*"
 
 [dev-packages]
 ipython = "*"
