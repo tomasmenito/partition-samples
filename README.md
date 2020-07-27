@@ -1,8 +1,8 @@
 # partition-samples
-Django + Postgres partitions samples
+[Django[(https://docs.djangoproject.com/en/3.0/) + [architect](https://architect.readthedocs.io/features/partition/)
 
 
-# Triggers generated after architect
+## Triggers generated after architect
 
 ```sql
 -- before_insert_bookstore_purchase_trigger
