@@ -1,5 +1,7 @@
 # partition-samples
-[Django[(https://docs.djangoproject.com/en/3.0/) + [architect](https://architect.readthedocs.io/features/partition/)
+[Django](https://docs.djangoproject.com/en/3.0/) + [architect](https://architect.readthedocs.io/features/partition/) tests to auto generate database partitions
+
+After annotating model with `@architect.install` and configuring [AppConfig](partition_samples/bookstore/apps.py), after every migration architect will create/update triggers to auto create/redirect data to inheirited tables (partitions).
 
 
 ## Triggers generated after architect
